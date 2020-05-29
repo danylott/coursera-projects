@@ -1,0 +1,17 @@
+levels:
+  - !empty_map {}
+  - !special_map
+    rat: 20
+    naga: 10
+  - !random_map
+    rat: 50
+    knight: 15
+    naga: 10
+    dragon: 5
+    jedi: 3
+  - !random_map
+    rat: 10
+    knight: 25
+    dragon: 25
+    jedi: 10
+  - !end_map {}
